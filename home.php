@@ -18,8 +18,8 @@ session_start();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="refresh" content="10">
-    <link rel="icon" href="img/l.png" type="image/png">
-    <title>Loki Insurance</title>
+   
+    <title>Narok Online Insurance System</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -39,7 +39,7 @@ session_start();
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="home.php">Loki Insurance</a>
+                    <a class="navbar-brand logo_h" href="home.php">Narok Insurance</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -48,8 +48,14 @@ session_start();
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="policyreg.php">Registration</a></li>
+                            <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+                             <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="policyreg.php">Personal</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="companyreg.php">Company</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="price.html">Pricing</a></li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Policies</a>
@@ -83,7 +89,7 @@ session_start();
                 <div class="col-lg-6">
                     <div class="area-heading">
                         <h4 style="margin-bottom:auto">What we do:</h4>
-                        <p>Loki Insurance management system is a web system which is used to tracking details on insurance policies, customer details and company details. The company tries to give insurance policy holders quick access to their insurance policy details, modify or update the datails and even renew an expired insurance policy. All this, with a single click on your computer, at the comfort of your home.</p>
+                        <p>Narok Online Insurance System is a web system which is used to tracking details on insurance policies, customer details and company details. The company tries to give insurance policy holders quick access to their insurance policy details, modify or update the datails and even renew an expired insurance policy. All this, with a single click on your computer, at the comfort of your home.</p>
                     </div>
                     <div class="row" style="margin-top: auto">
                         <div class="col-md-6 col-lg-6">
@@ -93,7 +99,7 @@ session_start();
                                 </div>
                                 <div class="single-about-content">
                                     <h5>Easy Access</h5>
-                                    <p>Loki Insurance provides easy access and ease of use to our clients which makes our system reliable.</p>
+                                    <p>Narok Online Insurance System provides easy access and ease of use to our clients which makes our system reliable.</p>
                                 </div>
                             </div>
                         </div>
@@ -223,16 +229,16 @@ session_start();
                     <h4>Theme:</h4>
                     <p>Assuring you a hopeful future</p>
                     <div class="footer-logo">
-                        <h3 style="color: white; font-weight: bolder">Loki Insurance</h3>
+                        <h3 style="color: white; font-weight: bolder">Narok Online Insurance System</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Contact Info</h4>
                     <div class="footer-address">
-                        <p>Address : 6789 Street <br> Nairobi</p>
+                        <p>Address : 6789 Street <br> Narok</p>
                         <span>Phone : +123 456789</span>
-                        <span>Email : lokisurance@gmail.com</span>
+                        <span>Email : narokims@gmail.com</span>
                     </div>
                 </div>
 

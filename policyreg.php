@@ -12,8 +12,8 @@ require 'server.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/l.png" type="image/png">
-    <title>Loki Insurance</title>
+  
+    <title>Narok Online Insurance System</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -33,7 +33,7 @@ require 'server.php';
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="home.php">Loki Insurance</a>
+                    <a class="navbar-brand logo_h" href="home.php">Narok  Insurance</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -43,7 +43,13 @@ require 'server.php';
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="policyreg.php">Registration</a></li>
+                             <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="policyreg.php">Personal</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="companyreg.php">Company</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="price.html">Pricing</a></li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Policies</a>
@@ -176,16 +182,16 @@ require 'server.php';
                     <h4>Theme:</h4>
                     <p>Assuring you a hopeful future</p>
                     <div class="footer-logo">
-                        <h3 style="color: white; font-weight: bolder">Loki Insurance</h3>
+                        <h3 style="color: white; font-weight: bolder">Narok Online Insurance System</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Contact Info</h4>
                     <div class="footer-address">
-                        <p>Address : 6789 Street <br> Nairobi</p>
+                        <p>Address : 6789 Street <br> Narok</p>
                         <span>Phone : +123 456789</span>
-                        <span>Email : lokisurance@gmail.com</span>
+                        <span>Email : narokims@gmail.com</span>
                     </div>
                 </div>
 
@@ -219,7 +225,7 @@ require 'server.php';
                     Copyright &copy;<script>
                         document.write(new Date().getFullYear());
 
-                    </script> All rights reserved
+                    </script> All rights reserved 
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
                 <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">

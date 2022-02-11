@@ -46,8 +46,7 @@ if (isset($_POST['ulogin'])) {
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="img/l.png" type="image/png">
-  <title>Loki Insurance</title>
+  <title>Narok Online Insurance System</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/themify-icons.css">
@@ -65,8 +64,8 @@ if (isset($_POST['ulogin'])) {
       <div class="col-12">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-4">
-            <h2 style="color: #049; font-weight: bold">LOKI Insurance MIS</h2>
-            <p class="mb-4" style="color: #fff; font-weight: bold">Loki Insurance company is a web application which is used to tracking the details about the insurance policy, customer details and company details. The company tries to give insurance policy holders quick access to their insurance policy details, modify or update the datails and even renew an expired insurance policy. All this, with a single click on your computer, at the comfort of your home.
+            <h2 style="color: #049; font-weight: bold">Narok Online Insurance System</h2>
+            <p class="mb-4" style="color: #fff; font-weight: bold">Narok Online Insurance System is a web application which is used to tracking the details about the insurance policy, customer details and company details. The company tries to give insurance policy holders quick access to their insurance policy details, modify or update the datails and even renew an expired insurance policy. All this, with a single click on your computer, at the comfort of your home.
 
             </p>
           </div>
@@ -74,7 +73,7 @@ if (isset($_POST['ulogin'])) {
           <div class="col-lg-5 ml-auto">
             <form action="index.php" method="post" class="form-box">
               <?php include('errors.php'); ?>
-              <h3 style="color: #049; font-weight: bold">User Login </h3><p>Login as <a href="admin.php" style="font-weight: 600">Administrator</a></p>
+              <h3 style="color: #049; font-weight: bold">User Login </h3>
 
                 
               <div class="form-group">
